@@ -1,0 +1,37 @@
+body{
+    font-family: 'Gugi', cursive;
+}
+
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #FFD700;
+}
+
+.character{
+    background: black;
+    width: 35%;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.character ul {
+    list-style: none;
+    padding: 0;
+}
+
+.btns{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns button{
+    padding: 5px;
+    font-family: 'Gugi', cursive;
+    font-size:  1rem;
+    width: 20%;
+    color: #FFD700;
+    background: black;
+}
