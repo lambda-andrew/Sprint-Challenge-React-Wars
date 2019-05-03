@@ -1,4 +1,34 @@
-ul {
+.section-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sw-names {
+  width: 20%;
   list-style: none;
-  color: white;
+}
+
+.char-names {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #f4b841;
+  background-color: black;
+}
+
+.char-att {
+  list-style: none;
+  text-align: center;
+  margin-right: 3.5em;
+  font-size: .8rem;
+  color: blue;
+  background-color: lightgrey;
+  line-height: 2em;
+}
+
+.char-att b {
+  color: black;
+  font-weight: bold;
 }
